@@ -7,8 +7,8 @@
         "url": "https://github.com/Cavvoh/cavvoh-unistore/raw/main/cavvoh.unistore",
         "sheet": "cavvoh.t3x",
         "sheetURL": "https://github.com/Cavvoh/cavvoh-unistore/raw/main/cavvoh.t3x",
-        "version": 1,
-        "revision": 1
+        "revision": 74,
+        "version": 3
     },
     "storeContent": [
         {
@@ -22,7 +22,7 @@
                 "license": "none",
                 "icon_index": 0,
                 "sheet_index": 0,
-                "last_updated": "30-08-2025 at 2:06 (MESZ)",
+                "last_updated": "30-08-2025 at 2:06 (MESZ)"
             },
             "Don't press the Button (CIA)": {
               "size":"349 KB",
@@ -67,7 +67,7 @@
                 "license": "none",
                 "icon_index": 1,
                 "sheet_index": 0,
-                "last_updated": "17-09-2025 at 12:06 (MESZ)",
+                "last_updated": "17-09-2025 at 12:06 (MESZ)"
             },
             "Homebrew App (CIA)": {
               "size":"498 KB",
