@@ -1,6 +1,11 @@
 # cavvoh-unistore
 A Universal-Updater DB where I will store my stuff for the 3DS family
 
+## Installation
+Please scan the next QR Code with the Universal Updater app:
+
+![QR Code](https://github.com/Cavvoh/cavvoh-unistore/raw/main/qr-code.png)
+
 ## Building Atlas *.t3x.
 
 <details><summary> Click to show/hide build instructions </summary>

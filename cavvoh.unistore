@@ -13,6 +13,40 @@
     "storeContent": [
         {
             "info": {
+                "title": "Evolution3DS",
+                "author": "Cavvoh",
+                "version": "v1.2.0",
+                "category": ["Firm", "Luma3DS", "Evolution3DS"],
+                "console": ["3DS"],
+                "description": "Nintendo 3DS \"Custom Firmware\"",
+                "license": "gpl-3.0",
+                "icon_index": 2,
+                "sheet_index": 0,
+                "last_updated": "12-09-2025 at 18:18 (MESZ)"
+            },
+            "boot.firm": {
+              "size":"556 KB",
+              "script":[
+                    {
+                        "type": "downloadFile",
+                        "file": "https://github.com/Cavvoh/Evolution3DS/releases/download/v1.2.0/Evolution3DSv1.2.zip",
+                        "output": "sdmc:/Evolution3DSv1.2.zip"
+                    },
+                    {
+                         "type": "extractFile",
+                         "file": "sdmc:/Evolution3DSv1.2.zip",
+                         "input": "boot.firm",
+                         "output": "sdmc:/boot.firm"
+                    },
+                    {
+                        "type": "deleteFile",
+                        "file": "sdmc:/Evolution3DSv1.2.zip"
+                    }
+                ]
+            }
+        },
+        {
+            "info": {
                 "title": "Don't press the Button",
                 "author": "Cavvoh",
                 "version": "v0.0.1",
@@ -91,40 +125,6 @@
                         "type": "downloadFile",
                         "file": "https://cavvoh.com/Downloads/NFCReader/NFCReader.3dsx",
                         "output": "sdmc:/3ds/NFCReader.3dsx"
-                    }
-                ]
-            }
-        },
-        {
-            "info": {
-                "title": "Evolution3DS",
-                "author": "Cavvoh",
-                "version": "v1.2.0",
-                "category": ["Firm", "Luma3DS", "Evolution3DS"],
-                "console": ["3DS"],
-                "description": "Nintendo 3DS \"Custom Firmware\"",
-                "license": "gpl-3.0",
-                "icon_index": 2,
-                "sheet_index": 0,
-                "last_updated": "12-09-2025 at 18:18 (MESZ)"
-            },
-            "boot.firm": {
-              "size":"556 KB",
-              "script":[
-                    {
-                        "type": "downloadFile",
-                        "file": "https://github.com/Cavvoh/Evolution3DS/releases/download/v1.2.0/Evolution3DSv1.2.zip",
-                        "output": "sdmc:/Evolution3DSv1.2.zip"
-                    },
-                    {
-                         "type": "extractFile",
-                         "file": "sdmc:/Evolution3DSv1.2.zip"
-                         "input": "boot.firm",
-                         "output": "sdmc:/boot.firm",
-                    },
-                    {
-                        "type": "deleteFile",
-                        "file": "sdmc:/Evolution3DSv1.2.zip"
                     }
                 ]
             }
