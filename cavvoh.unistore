@@ -16,15 +16,13 @@
                 "title": "Don't press the Button",
                 "author": "Cavvoh",
                 "version": "v0.0.1",
-                "category": [""],
+                "category": ["Games"],
                 "console": ["3DS"],
                 "description": "How long can you resist pressing the button?",
                 "license": "none",
                 "icon_index": 0,
                 "sheet_index": 0,
                 "last_updated": "30-08-2025 at 2:06 (MESZ)",
-                "releasenotes": "",
-                "screenshots": []
             },
             "Don't press the Button (CIA)": {
               "size":"349 KB",
@@ -63,15 +61,13 @@
                 "title": "Homebrew App",
                 "author": "Cavvoh",
                 "version": "v0.0.1",
-                "category": [""],
+                "category": ["Misc"],
                 "console": ["3DS"],
                 "description": "A Homebrew App",
                 "license": "none",
                 "icon_index": 1,
                 "sheet_index": 0,
                 "last_updated": "17-09-2025 at 12:06 (MESZ)",
-                "releasenotes": "",
-                "screenshots": []
             },
             "Homebrew App (CIA)": {
               "size":"498 KB",
@@ -93,7 +89,7 @@
                     }
                 ]
             },
-            "Don't press the Button (3DSX)": {
+            "Homebrew App (3DSX)": {
               "size":"164 KB",
               "script":[
                     {
