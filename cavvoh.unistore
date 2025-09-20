@@ -1,0 +1,109 @@
+{
+    "storeInfo": {
+        "title": "Cavvoh Unistore",
+        "author": "Cavvoh",
+        "description": "A Universal-Updater DB where I will store my stuff for the 3DS family",
+        "file": "cavvoh.unistore",
+        "url": "https://github.com/Cavvoh/cavvoh-unistore/raw/main/cavvoh.unistore",
+        "sheet": "cavvoh.t3x",
+        "sheetURL": "https://github.com/Cavvoh/cavvoh-unistore/raw/main/cavvoh.t3x",
+        "version": 1,
+        "revision": 1
+    },
+    "storeContent": [
+        {
+            "info": {
+                "title": "Don't press the Button",
+                "author": "Cavvoh",
+                "version": "v0.0.1",
+                "category": [""],
+                "console": ["3DS"],
+                "description": "How long can you resist pressing the button?",
+                "license": "none",
+                "icon_index": 0,
+                "sheet_index": 0,
+                "last_updated": "30-08-2025 at 2:06 (MESZ)",
+                "releasenotes": "",
+                "screenshots": []
+            },
+            "Don't press the Button (CIA)": {
+              "size":"349 KB",
+              "script":[
+                    {
+                        "type": "downloadFile",
+                        "file": "https://cavvoh.com/Downloads/The%20Button/TheButton.cia",
+                        "message": "Downloading TheButton.cia...",
+                        "output": "sdmc:/TheButton.cia"
+                    },
+                    {
+                         "type": "installCia",
+                         "message": "Installing TheButton.cia...",
+                         "file": "sdmc:/TheButton.cia"
+                    },
+                    {
+                        "type": "deleteFile",
+                        "file": "sdmc:/TheButton.cia"
+                    }
+                ]
+            },
+            "Don't press the Button (3DSX)": {
+              "size":"251 KB",
+              "script":[
+                    {
+                        "type": "downloadFile",
+                        "file": "https://cavvoh.com/Downloads/The%20Button/TheButton.3dsx",
+                        "message": "Downloading TheButton.3dsx...",
+                        "output": "sdmc:/3ds/TheButton.3dsx"
+                    }
+                ]
+            }
+        },
+        {
+            "info": {
+                "title": "Homebrew App",
+                "author": "Cavvoh",
+                "version": "v0.0.1",
+                "category": [""],
+                "console": ["3DS"],
+                "description": "A Homebrew App",
+                "license": "none",
+                "icon_index": 1,
+                "sheet_index": 0,
+                "last_updated": "17-09-2025 at 12:06 (MESZ)",
+                "releasenotes": "",
+                "screenshots": []
+            },
+            "Homebrew App (CIA)": {
+              "size":"498 KB",
+              "script":[
+                    {
+                        "type": "downloadFile",
+                        "file": "https://cavvoh.com/Downloads/NFCReader/NFCReader.cia",
+                        "message": "Downloading NFCReader.cia...",
+                        "output": "sdmc:/NFCReader.cia"
+                    },
+                    {
+                         "type": "installCia",
+                         "message": "Installing NFCReader.cia...",
+                         "file": "sdmc:/NFCReader.cia"
+                    },
+                    {
+                        "type": "deleteFile",
+                        "file": "sdmc:/NFCReader.cia"
+                    }
+                ]
+            },
+            "Don't press the Button (3DSX)": {
+              "size":"164 KB",
+              "script":[
+                    {
+                        "type": "downloadFile",
+                        "file": "https://cavvoh.com/Downloads/NFCReader/NFCReader.3dsx",
+                        "message": "Downloading NFCReader.3dsx...",
+                        "output": "sdmc:/3ds/NFCReader.3dsx"
+                    }
+                ]
+            }
+        }
+    ]
+}
